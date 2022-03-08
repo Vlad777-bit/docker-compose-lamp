@@ -20,6 +20,7 @@ As of now, we have several different PHP versions. Use appropriate php version a
 * 7.3.x
 * 7.4.x
 * 8.0.x
+* 8.1.x
 
  
 ##  Installation
@@ -31,8 +32,8 @@ As of now, we have several different PHP versions. Use appropriate php version a
 ```shell
 git clone https://github.com/sprintcube/docker-compose-lamp.git
 cd docker-compose-lamp/
-cp sample.env .env
 // modify sample.env as needed
+cp sample.env .env
 docker-compose up -d
 // visit localhost
 ```
